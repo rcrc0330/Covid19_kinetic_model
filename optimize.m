@@ -1,10 +1,16 @@
 clear all;
-k3guess = 0.2;
-k2guess = 0.3;
+k3guess = 0.2527;
+k2guess = 0.25245;
 N=10^9;
 
-CoronaData=load('csse_US.dat');
-xknown(:,1) = CoronaData(:,2);
+country='India';
+data_c=load(strcat('csse_confirmed_',country,'.dat'));
+data_d=load(strcat('csse_deaths_',country,'.dat'));
+data_r=load(strcat('csse_recovered_',country,'.dat'));
+data_a(:,2)=data_c(:,2)-data_d(:,2)-data_r(:,2);
+data_a(:,1)=data_c(:,1);
+xknown(:,1) = data_a(:,2);
+
 %Initial Condition
 
 R = 1;
@@ -36,7 +42,7 @@ tspanknown = linspace(0,length(xknown)-1,length(xknown))';
 
 figure(1);
 subplot(3,3,1)
-plot(t,p(2)*t.^0.5/6.*x(:,4)); xlabel('days'); ylabel('Tested positive');
+plot(t,p(2)*t.^0.5/6.*x(:,4)); xlabel('days'); ylabel('Rate of positive tested');
 subplot(3,3,2)
 plot(t,x(:,2)); xlabel('days'); ylabel('IHS');
 subplot(3,3,3)
