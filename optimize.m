@@ -1,7 +1,7 @@
 clear all;
-k3guess = 0.2271;
-k2guess = 0.5394;
-k1guess = 0.3494;
+k1guess = 0.0522;
+k2guess = 0.1109;
+k3guess = 0.00015357;
 N=10^9;
 
 country='India';
@@ -11,22 +11,26 @@ data_r=load(strcat('csse_recovered_',country,'.dat'));
 data_a(:,2)=data_c(:,2)-data_d(:,2)-data_r(:,2);
 data_a(:,1)=data_c(:,1);
 xknown(:,1) = data_a(:,2);
-xknown(:,2) = data_r(:,2)+data_d(:,2);
+xknown(:,2) = [0;data_r(2:end,2)+data_d(2:end,2)-data_r(1:end-1,2)-data_d(1:end-1,2)];
+xknown(:,3) = [0;data_c(2:end,2)-data_c(1:end-1,2)];
+%xknown = xknown(1:20,:);
+
+k3poly = polyfit(data_c(:,1), [0;data_c(2:end,2)-data_c(1:end-1,2)],5);
 
 %Initial Condition
 
 R = 1;
-IHA = 5*xknown(1,1);
-IHS = xknown(1,1)/2;
+IHA = 800*xknown(1,1);
+IHS = 200*xknown(1,1);
 ID = xknown(1,1);
 
 %Optimize kpar
-kpar = [k3guess;k2guess;k1guess];
+kpar = [k1guess;k2guess;k3guess];
 options=optimset('lsqnonlin');
-options=optimset(options,'TolFun',1e-7,'TolX',1e-12*100,'MaxFunEvals',1e8/1000,'MaxIter',1e6/1000,'Display','iter');
-kpar=lsqnonlin(@(kpar) integrate(kpar,xknown,N,R,ID,IHA,IHS),kpar,[],[],options)
+options=optimset(options,'TolFun',1e-16,'TolX',1e-16,'MaxFunEvals',1e8/100,'MaxIter',1e6/100,'Display','iter');
+kpar=lsqnonlin(@(kpar) integrate(kpar,xknown,N,R,ID,IHA,IHS,k3poly),kpar,[],[],options)
 
-k3=kpar(1); k2=kpar(2); k1=kpar(3);
+k1=kpar(1); k2=kpar(2); k3=kpar(3);
 
 %Plotting
 S = N-R-IHA-IHS-ID;
@@ -35,16 +39,14 @@ S = N-R-IHA-IHS-ID;
 
 x0=[R;IHS;IHA;ID];
 
-p = [N;k3;k2;k1];
-
-tspan = linspace(0,200,201)';
+tspan = linspace(0,365,366)';
 tspanknown = linspace(0,length(xknown)-1,length(xknown))';
-[t,x] = ode15s(@(t,x) myode(t,x,p), tspan, x0);
-[tf,xf] = ode15s(@(t,x) myode(t,x,p), tspanknown, x0);
+[t,x] = ode15s(@(t,x) myode(t,x,kpar,k3poly,N), tspan, x0);
+[tf,xf] = ode15s(@(t,x) myode(t,x,kpar,k3poly,N), tspanknown, x0);
 
 figure(1);
 subplot(3,3,1)
-plot(t,p(2)*t.^0.5/6.*x(:,4)); xlabel('days'); ylabel('Rate of positive tested');
+plot(tspanknown,polyval(k3poly,tspanknown),tspanknown,xknown(:,3),'.r',tspanknown,2.2*k3*xf(:,2),'-g'); xlabel('days'); ylabel('Rate of positive tested'); title('k3fit');
 subplot(3,3,2)
 plot(t,x(:,2)); xlabel('days'); ylabel('IHS');
 subplot(3,3,3)
