@@ -4,13 +4,14 @@
 #SBATCH --ntasks-per-node=64
 #SBATCH --nodes=1
 #SBATCH --time=120:00:00
+#SBATCH --nodelist=n002
 #SBATCH -p matl
-cd /home/rajat/COVID19_kinetics2/COVID19_kinetics/
+cd /home/rajat/COVID19_kinetics2/new/COVID19_kinetics/
 k=`ls UGP-7thsem/temp_dist/my |wc -l`
 k=$((k / 2))
 echo $k
 python ing_file_gen.py
-for ((i = 1; i <= $k; i++)); do
+for ((i = 65; i <= $k; i++)); do
     rm UGP-7thsem/temp_dist/*
     python ing_gen.py $i
     python list_gen2.py
