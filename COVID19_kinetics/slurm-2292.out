@@ -1,0 +1,2654 @@
+103
+rm: cannot remove 'UGP-7thsem/temp_dist/my': Is a directory
+rm: cannot remove 'UGP-7thsem/temp_dist/plot': Is a directory
+   1.0738093e-01
+   1.3564674e-01
+   3.8757451e-01
+   1.7407959e-03
+   5.4494080e-04
+   2.5562440e+06
+   3.2068880e-05
+   4.2708108e-03
+   3.6809472e+01
+   4.0375989e-04
+   4.9019000e+04
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Thane'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MH_Thane (line 58)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MH_Thane (line 59)] 
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.058302                          11.9
+[Warning: Failure at t=1.949381e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MH_Thane>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MH_Thane (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MH_Thane>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MH_Thane (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Tenkasi'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.227477                           321
+[Warning: Failure at t=7.650467e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_TN_Tenkasi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_TN_Tenkasi (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_TN_Tenkasi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_TN_Tenkasi (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Moradabad'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         5.90413                      2.16e+03
+     1         12         5.90413       0.683814       2.16e+03      
+     2         18          1.8897       0.170954            724      
+     3         24        0.287064       0.238989           41.8      
+     4         30        0.287064       0.218909           41.8      
+[Warning: Failure at t=8.283674e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_UP_Moradabad>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_UP_Moradabad (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_UP_Moradabad>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_UP_Moradabad (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Pune'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MH_Pune (line 58)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MH_Pune (line 59)] 
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.117269                          3.62
+[Warning: Failure at t=4.236091e+00.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (1.421085e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MH_Pune>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MH_Pune (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MH_Pune>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MH_Pune (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Chhindwara'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         100.312                       1.2e+05
+[Warning: Failure at t=2.183002e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (5.684342e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Chhindwara>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Chhindwara (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_MP_Chhindwara>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Chhindwara (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Sangli'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6          0.1128                          60.9
+[Warning: Failure at t=1.778491e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (5.684342e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MH_Sangli>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MH_Sangli (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MH_Sangli>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MH_Sangli (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Hisar'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6       0.0223867                          2.17
+[Warning: Failure at t=1.840587e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (5.684342e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_HR_Hisar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_HR_Hisar (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_HR_Hisar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_HR_Hisar (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GA_Unknown'
+
+{Error using snls (line 47)
+Objective function is returning undefined values at initial point. lsqnonlin
+cannot continue.
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_GA_Unknown (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Surajpur'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.832874                      1.33e+03
+     1         12        0.832874       0.954106       1.33e+03      
+     2         18        0.224795       0.238527            100      
+[Warning: Failure at t=7.578746e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_CT_Surajpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_CT_Surajpur (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_CT_Surajpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_CT_Surajpur (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Neemuch'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         3.29058                      3.64e+03
+[Warning: Failure at t=3.630003e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (1.136868e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Neemuch>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Neemuch (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MP_Neemuch>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Neemuch (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Churu'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         34.7797                      2.57e+04
+     1         12       0.0955923       0.373424           24.1      
+     2         18       0.0955923       0.271899           24.1      
+     3         24        0.052233      0.0679747           1.52      
+[Warning: Failure at t=6.064750e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (1.136868e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_RJ_Churu>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_RJ_Churu (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_RJ_Churu>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_RJ_Churu (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Chhota_Udaipur'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_GJ_Chhota_Udaipur (line 58)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_GJ_Chhota_Udaipur (line 59)] 
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         207.066                      3.65e+04
+     1         12           36.05      0.0637122       6.91e+03      
+[Warning: Failure at t=1.739348e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_GJ_Chhota_Udaipur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_GJ_Chhota_Udaipur (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_GJ_Chhota_Udaipur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_GJ_Chhota_Udaipur (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KA_Shivamogga'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6       0.0954165                          54.7
+[Warning: Failure at t=3.465249e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (1.136868e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_KA_Shivamogga>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_KA_Shivamogga (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_KA_Shivamogga>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_KA_Shivamogga (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Hardoi'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         67.6355                      4.04e+04
+     1         12         2.18791       0.235484            895      
+     2         18       0.0643277       0.121647           26.1      
+     3         24       0.0643277       0.133457           26.1      
+     4         30        0.023436      0.0333643            4.6      
+     5         36        0.023436      0.0667285            4.6      
+     6         42       0.0204847      0.0166821          0.647      
+     7         48       0.0192453      0.0166821           1.28      
+     8         54       0.0192453      0.0333643           1.28      
+     9         60       0.0182915     0.00834107          0.886      
+    10         66       0.0169856      0.0166821          0.886      
+    11         72       0.0169129      0.0166821          0.575      
+    12         78        0.016107     0.00417053           1.37      
+    13         84        0.015506     0.00417053           1.08      
+    14         90       0.0150761     0.00417053          0.967      
+    15         96        0.014772     0.00417053          0.755      
+    16        102       0.0145925     0.00417053          0.589      
+    17        108       0.0145388     0.00417053          0.441      
+    18        114       0.0145371     0.00417053          0.364      
+    19        120       0.0145129     0.00104263          0.353      
+    20        126       0.0144971     0.00104263          0.263      
+    21        132        0.014488     0.00104263          0.184      
+    22        138        0.014484     0.00104263          0.149      
+    23        144       0.0144816    0.000260658          0.111      
+    24        150       0.0144805    6.51646e-05         0.0865      
+    25        156       0.0144787    1.62911e-05         0.0109      
+    26        162       0.0144787    3.25823e-05         0.0118      
+    27        168       0.0144787    8.14557e-06        0.00897      
+    28        174       0.0144787    8.14557e-06        0.00676      
+    29        180       0.0144787    8.14557e-06        0.00517      
+    30        186       0.0144787    8.14557e-06        0.00387      
+    31        192       0.0144787    8.14557e-06          0.003      
+    32        198       0.0144787    8.14557e-06        0.00224      
+    33        204       0.0144787    8.14557e-06        0.00177      
+    34        210       0.0144787    8.14557e-06         0.0013      
+    35        216       0.0144787    8.14557e-06        0.00106      
+    36        222       0.0144787    8.14557e-06       0.000773      
+    37        228       0.0144787    8.14557e-06        0.00066      
+    38        234       0.0144787    1.62911e-05         0.0005      
+    39        240       0.0144787    3.25823e-05       0.000397      
+    40        246       0.0144787    3.47442e-05       0.000397      
+    41        252       0.0144787    8.14557e-06       0.000329      
+    42        258       0.0144787    8.14557e-06       0.000268      
+    43        264       0.0144787    2.03639e-06       0.000217      
+    44        270       0.0144787    2.03639e-06       0.000157      
+    45        276       0.0144787    2.03639e-06       0.000157      
+    46        282       0.0144787    5.09098e-07       0.000157      
+    47        288       0.0144787    1.27275e-07       0.000157      
+    48        294       0.0144787    3.18186e-08       2.53e-05      
+    49        300       0.0144787    3.18186e-08       2.53e-05      
+    50        306       0.0144787    7.95466e-09       2.53e-05      
+    51        312       0.0144787    1.98867e-09       2.03e-05      
+    52        318       0.0144787    1.98867e-09       1.55e-05      
+    53        324       0.0144787    4.97166e-10       1.43e-05      
+    54        330       0.0144787    1.24292e-10        1.4e-05      
+    55        336       0.0144787    3.10729e-11        1.4e-05      
+    56        342       0.0144787    7.76822e-12       1.39e-05      
+    57        348       0.0144787    1.94206e-12       1.39e-05      
+    58        354       0.0144787    4.85514e-13       1.39e-05      
+    59        360       0.0144787    1.21379e-13       1.39e-05      
+    60        366       0.0144787    3.03446e-14       1.39e-05      
+    61        372       0.0144787    7.58616e-15       1.39e-05      
+    62        378       0.0144787    1.89654e-15       1.39e-05      
+    63        384       0.0144787    4.74135e-16       1.39e-05      
+    64        390       0.0144787    1.18534e-16       1.39e-05      
+    65        396       0.0144787    2.96334e-17       1.39e-05      
+
+Local minimum possible.
+lsqnonlin stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+
+kpar =
+
+    0.1032
+    0.1677
+    0.0191
+    0.0026
+    0.0028
+
+
+resnorm =
+
+    0.0145
+
+
+kpar =
+
+    0.1032
+    0.1677
+    0.0191
+    0.0026
+    0.0028
+
+
+N =
+
+     4091380
+
+{Unrecognized function or variable 'err'.
+
+Error in optimize_UP_Hardoi (line 100)
+err
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Thoothukkudi'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         0.10412                          91.6
+[Warning: Failure at t=5.426306e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (1.136868e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_TN_Thoothukkudi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_TN_Thoothukkudi (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_TN_Thoothukkudi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_TN_Thoothukkudi (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Panna'
+
+{Error using snls (line 47)
+Objective function is returning undefined values at initial point. lsqnonlin
+cannot continue.
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Panna (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Kollam'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6       0.0867274                          51.3
+[Warning: Failure at t=1.173280e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_KL_Kollam>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_KL_Kollam (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_KL_Kollam>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_KL_Kollam (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Jalore'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         7.16287                      9.02e+03
+     1         12         1.11944        0.42911            262      
+     2         18         1.11944       0.422203            262      
+     3         24         1.11944       0.105551            262      
+[Warning: Failure at t=1.062167e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_RJ_Jalore>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_RJ_Jalore (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_RJ_Jalore>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_RJ_Jalore (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Mahisagar'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         56.7891                       7.2e+04
+     1         12          3.2089       0.197239       3.34e+03      
+[Warning: Failure at t=9.551111e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_GJ_Mahisagar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_GJ_Mahisagar (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_GJ_Mahisagar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_GJ_Mahisagar (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Darjeeling'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6       0.0240191                          47.1
+[Warning: Failure at t=1.680039e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_WB_Darjeeling>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_WB_Darjeeling (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_WB_Darjeeling>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_WB_Darjeeling (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Koriya'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         1.44117                      2.85e+03
+[Warning: Failure at t=2.283603e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (5.684342e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_CT_Koriya>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_CT_Koriya (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_CT_Koriya>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_CT_Koriya (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Tawang'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.616002                          47.1
+     1         12        0.616002        5.12363           47.1      
+     2         18        0.616002        1.28091           47.1      
+     3         24        0.547478       0.320227           7.32      
+     4         30        0.547478       0.320227           7.32      
+[Warning: Failure at t=1.562861e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_AR_Tawang>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_AR_Tawang (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_AR_Tawang>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_AR_Tawang (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Khandwa'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6          75.287                       7.1e+04
+     1         12         1.66491        0.25424       1.05e+03      
+[Warning: Failure at t=1.041401e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Khandwa>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Khandwa (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MP_Khandwa>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Khandwa (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Pathanamthitta'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.239982                          70.1
+     1         12        0.239982       0.546916           70.1      
+     2         18        0.239982       0.136729           70.1      
+[Warning: Failure at t=1.260779e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_KL_Pathanamthitta>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_KL_Pathanamthitta (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_KL_Pathanamthitta>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_KL_Pathanamthitta (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Alwar'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         5.46657                      7.08e+03
+     1         12        0.478343       0.115204            819      
+     2         18       0.0832457      0.0462321            109      
+     3         24       0.0407535       0.192882           10.6      
+[Warning: Failure at t=7.091926e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_RJ_Alwar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_RJ_Alwar (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_RJ_Alwar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_RJ_Alwar (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Rajgarh'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         134.688                      1.36e+05
+     1         12         134.688       0.527847       1.36e+05      
+     2         18         28.5156       0.131962        5.4e+04      
+     3         24        0.169867       0.263923           14.3      
+     4         30        0.169867       0.603444           14.3      
+[Warning: Failure at t=1.684143e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (5.684342e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Rajgarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Rajgarh (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MP_Rajgarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Rajgarh (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Krishnagiri'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.968757                      1.38e+03
+     1         12        0.952468       0.433598            273      
+     2         18        0.952468         0.1084            273      
+[Warning: Failure at t=7.935205e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_TN_Krishnagiri>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_TN_Krishnagiri (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_TN_Krishnagiri>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_TN_Krishnagiri (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Burhanpur'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MP_Burhanpur (line 58)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MP_Burhanpur (line 59)] 
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         6.52618                      9.56e+03
+     1         12         1.02559       0.905552       6.98e+03      
+[Warning: Failure at t=6.552946e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Burhanpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Burhanpur (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_MP_Burhanpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Burhanpur (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Kishanganj'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         41.7128                      4.44e+04
+     1         12         41.7128        0.51615       4.44e+04      
+     2         18         10.8526       0.129038       1.05e+04      
+     3         24        0.474623       0.258075           16.2      
+     4         30        0.474623        0.51615           16.2      
+     5         36        0.474623       0.129038           16.2      
+     6         42        0.474623      0.0322594           16.2      
+     7         48        0.345804     0.00806485           24.4      
+     8         54        0.330932     0.00806485           17.8      
+     9         60        0.326924     0.00201621           32.6      
+    10         66           0.303    0.000504053           14.8      
+    11         72         0.29696     0.00117789           15.2      
+    12         78        0.282278     0.00100811           11.1      
+    13         84        0.276761     0.00100811           11.9      
+    14         90        0.272382     0.00100811           19.1      
+    15         96        0.264576     0.00100811           10.5      
+    16        102        0.261848     0.00100811           18.7      
+    17        108        0.255348    0.000252026           6.35      
+    18        114        0.252748    0.000504053            8.5      
+    19        120        0.250229    0.000504053           11.2      
+    20        126        0.247425    0.000504053           7.58      
+    21        132        0.245578    0.000504053           11.4      
+    22        138        0.243037    0.000504053           7.41      
+    23        144        0.241473    0.000504053           10.9      
+    24        150        0.239265    0.000504053           7.15      
+    25        156          0.2379    0.000504053           10.3      
+    26        162        0.236009    0.000504053           6.83      
+    27        168        0.234798    0.000504053           9.54      
+    28        174        0.233175    0.000504053           6.47      
+    29        180        0.232079    0.000504053            8.8      
+    30        186        0.230676    0.000504053           6.09      
+    31        192        0.229678    0.000504053           8.08      
+    32        198        0.228473    0.000504053           5.74      
+    33        204        0.227579    0.000504053           7.46      
+    34        210        0.226536    0.000504053           5.41      
+    35        216        0.225733    0.000504053           6.89      
+    36        222        0.224824    0.000504053            5.1      
+    37        228        0.224102    0.000504053           6.38      
+    38        234        0.223303    0.000504053           4.81      
+    39        240        0.222651    0.000504053           5.92      
+    40        246        0.221945    0.000504053           4.54      
+    41        252        0.221359    0.000504053           5.52      
+    42        258        0.220734    0.000504053            4.3      
+    43        264          0.2202    0.000504053           5.15      
+    44        270        0.219639    0.000504053           4.08      
+    45        276        0.219149    0.000504053           4.82      
+    46        282        0.218642    0.000504053           3.88      
+    47        288        0.218191    0.000504053           4.53      
+    48        294         0.21773    0.000504053            3.7      
+    49        300        0.217314    0.000504053           4.26      
+    50        306        0.216892    0.000504053           3.54      
+    51        312        0.216506    0.000504053           4.03      
+    52        318        0.216117    0.000504053           3.39      
+    53        324        0.215757    0.000504053           3.82      
+    54        330        0.215398    0.000504053           3.26      
+    55        336        0.215061    0.000504053           3.63      
+    56        342        0.214727    0.000504053           3.14      
+    57        348        0.214411    0.000504053           3.46      
+    58        354        0.214104    0.000504053           3.04      
+    59        360        0.213809    0.000504053           3.33      
+    60        366        0.213517    0.000504053           2.94      
+    61        372        0.213238    0.000504053           3.19      
+    62        378        0.212962    0.000504053           2.86      
+    63        384        0.212697    0.000504053           3.07      
+    64        390        0.212437    0.000504053           2.78      
+    65        396        0.212185    0.000504053           2.95      
+    66        402         0.21194    0.000504053            2.7      
+    67        408          0.2117    0.000504053           2.85      
+    68        414        0.211466    0.000504053           2.63      
+    69        420        0.211237    0.000504053           2.75      
+    70        426        0.211014    0.000504053           2.57      
+    71        432        0.210795    0.000504053           2.66      
+    72        438        0.210583    0.000504053            2.5      
+    73        444        0.210372    0.000504053           2.58      
+    74        450        0.210169    0.000504053           2.44      
+    75        456        0.209968    0.000504053            2.5      
+    76        462        0.209774    0.000504053           2.39      
+    77        468         0.20958    0.000504053           2.42      
+    78        474        0.209395    0.000504053           2.33      
+    79        480        0.209209    0.000504053           2.35      
+    80        486        0.209031    0.000504053           2.28      
+    81        492        0.208852    0.000504053           2.28      
+    82        498        0.208682    0.000504053           2.22      
+    83        504         0.20851    0.000504053           2.21      
+    84        510        0.208346    0.000504053           2.17      
+    85        516        0.208181    0.000504053           2.14      
+    86        522        0.208024    0.000504053           2.12      
+    87        528        0.207866    0.000504053           2.08      
+    88        534        0.207715    0.000504053           2.07      
+    89        540        0.207562    0.000504053           2.02      
+    90        546        0.207418    0.000504053           2.01      
+    91        552         0.20727    0.000504053           1.95      
+    92        558        0.207131    0.000504053           1.96      
+    93        564        0.206989    0.000504053           1.89      
+    94        570        0.206856    0.000504053            1.9      
+    95        576        0.206719    0.000504053           1.83      
+    96        582         0.20659    0.000504053           1.85      
+    97        588        0.206458    0.000504053           1.77      
+    98        594        0.206335    0.000504053           1.79      
+    99        600        0.206207    0.000504053           1.71      
+   100        606        0.206088    0.000504053           1.74      
+   101        612        0.205966    0.000504053           1.65      
+   102        618        0.205851    0.000504053           1.68      
+   103        624        0.205729    0.000504053           1.58      
+   104        630        0.205535     0.00100811           1.68      
+   105        636        0.205168     0.00201621           1.39      
+   106        642        0.204536     0.00403242           1.84      
+   107        648        0.203362     0.00806485          0.581      
+   108        654        0.201837      0.0161297           4.46      
+   109        660        0.200359      0.0161297           2.44      
+   110        666        0.199438      0.0161297          0.253      
+   111        672        0.199438      0.0322594          0.253      
+   112        678        0.199275     0.00806485           2.43      
+   113        684        0.199052     0.00806485          0.617      
+   114        690        0.199052     0.00806485          0.617      
+   115        696        0.198997     0.00201621          0.573      
+   116        702        0.198965     0.00201621          0.135      
+   117        708        0.198947     0.00201621           0.31      
+   118        714        0.198925     0.00403242          0.296      
+   119        720        0.198925     0.00403242          0.296      
+   120        726         0.19892     0.00100811          0.126      
+   121        732        0.198918     0.00100811          0.194      
+   122        738        0.198917     0.00100811         0.0322      
+   123        744        0.198917     0.00100811         0.0322      
+   124        750        0.198917    0.000252026         0.0585      
+   125        756        0.198917    0.000252026         0.0585      
+   126        762        0.198917    6.30066e-05         0.0379      
+   127        768        0.198917    6.30066e-05          0.032      
+   128        774        0.198917    6.30066e-05          0.032      
+   129        780        0.198917    1.57517e-05         0.0203      
+   130        786        0.198917    1.57517e-05         0.0149      
+   131        792        0.198917    3.93791e-06        0.00972      
+   132        798        0.198917    3.93791e-06        0.00659      
+   133        804        0.198917    3.93791e-06         0.0046      
+   134        810        0.198917    3.93791e-06        0.00327      
+   135        816        0.198917    9.84478e-07        0.00217      
+   136        822        0.198917    9.84478e-07        0.00142      
+   137        828        0.198917     2.4612e-07       0.000934      
+   138        834        0.198917     2.4612e-07       0.000934      
+   139        840        0.198917    6.15299e-08       0.000934      
+   140        846        0.198917    1.73651e-08       0.000934      
+   141        852        0.198917    3.84562e-09       0.000598      
+   142        858        0.198917    3.84562e-09       0.000263      
+   143        864        0.198917    3.84562e-09       0.000263      
+   144        870        0.198917    9.61405e-10       0.000263      
+   145        876        0.198917    2.40351e-10       0.000242      
+   146        882        0.198917    6.00878e-11       0.000242      
+   147        888        0.198917    1.50219e-11       0.000241      
+   148        894        0.198917    3.75549e-12       0.000241      
+   149        900        0.198917    9.38872e-13       0.000241      
+   150        906        0.198917    2.34718e-13       0.000241      
+   151        912        0.198917    5.86795e-14       0.000241      
+   152        918        0.198917    1.46699e-14       0.000241      
+   153        924        0.198917    3.66747e-15       0.000241      
+   154        930        0.198917    9.16867e-16       0.000241      
+   155        936        0.198917    2.29217e-16       0.000241      
+   156        942        0.198917    5.73042e-17       0.000241      
+
+Local minimum possible.
+lsqnonlin stopped because the size of the current step is less than
+the value of the step size tolerance.
+
+
+kpar =
+
+    0.1026
+    0.2236
+    0.0150
+    0.0018
+    0.0022
+
+
+resnorm =
+
+    0.1989
+
+
+kpar =
+
+    0.1026
+    0.2236
+    0.0150
+    0.0018
+    0.0022
+
+
+N =
+
+     1690948
+
+{Unrecognized function or variable 'err'.
+
+Error in optimize_BR_Kishanganj (line 100)
+err
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Jabalpur'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6       0.0958227                          20.3
+[Warning: Failure at t=1.550461e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Jabalpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Jabalpur (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MP_Jabalpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Jabalpur (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Upper_Dibang_Valley'
+
+{Error using snls (line 47)
+Objective function is returning undefined values at initial point. lsqnonlin
+cannot continue.
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_AR_Upper_Dibang_Valley (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Lohit'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_AR_Lohit (line 58)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_AR_Lohit (line 59)] 
+{Error using snls (line 47)
+Objective function is returning undefined values at initial point. lsqnonlin
+cannot continue.
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_AR_Lohit (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Shajapur'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         352.075                      6.54e+05
+     1         12        0.678996       0.407752            250      
+     2         18        0.678996       0.277433            250      
+     3         24        0.678996      0.0693583            250      
+     4         30        0.353119      0.0173396            159      
+     5         36        0.353119      0.0346791            159      
+     6         42        0.337273     0.00866979           13.9      
+     7         48        0.329141     0.00866979           7.78      
+     8         54        0.292913     0.00866979           26.2      
+     9         60         0.27732      0.0173396             15      
+    10         66         0.27732      0.0173396             15      
+    11         72        0.203084     0.00433489           11.4      
+    12         78        0.184021     0.00433489           7.58      
+    13         84        0.184021     0.00433489           7.58      
+    14         90        0.169781     0.00108372           3.86      
+    15         96        0.152291     0.00216745           3.43      
+    16        102        0.143522     0.00433489           11.3      
+    17        108        0.132118     0.00433489           4.41      
+    18        114         0.12823     0.00433489           9.54      
+    19        120        0.120389     0.00433489           4.45      
+    20        126         0.11647     0.00433489           4.75      
+    21        132        0.113785     0.00433489           3.33      
+    22        138        0.112225     0.00433489           2.21      
+    23        144        0.112135     0.00433489           2.07      
+    24        150        0.111974     0.00108372           2.03      
+    25        156        0.111822    0.000270931           1.39      
+    26        162        0.111762    0.000270931           1.21      
+    27        168        0.111656    6.77327e-05          0.279      
+    28        174        0.111652    0.000135465           0.24      
+    29        180        0.111648    0.000135465          0.236      
+    30        186        0.111645    0.000135465          0.207      
+    31        192        0.111642    0.000135465          0.193      
+    32        198         0.11164    0.000135465          0.174      
+    33        204        0.111638    0.000135465          0.158      
+    34        210        0.111636    0.000135465          0.145      
+    35        216        0.111635    0.000135465          0.129      
+    36        222        0.111633    0.000135465          0.119      
+    37        228        0.111632    0.000135465          0.103      
+    38        234        0.111631    0.000135465         0.0952      
+    39        240         0.11163    0.000135465         0.0791      
+    40        246         0.11163    0.000135465         0.0726      
+    41        252        0.111629    0.000135465         0.0483      
+    42        258        0.111629    0.000135465         0.0411      
+    43        264        0.111629    3.38664e-05         0.0332      
+    44        270        0.111629    8.46659e-06         0.0261      
+    45        276        0.111629    2.11665e-06        0.00249      
+    46        282        0.111629    2.11665e-06        0.00223      
+    47        288        0.111629    2.11665e-06        0.00221      
+    48        294        0.111629    2.11665e-06        0.00203      
+    49        300        0.111629    2.11665e-06        0.00197      
+    50        306        0.111629    2.11665e-06        0.00184      
+    51        312        0.111629    2.11665e-06        0.00177      
+    52        318        0.111629    2.11665e-06        0.00167      
+    53        324        0.111629    2.11665e-06        0.00161      
+    54        330        0.111629    2.11665e-06        0.00151      
+    55        336        0.111629    2.11665e-06        0.00146      
+    56        342        0.111629    2.11665e-06        0.00138      
+    57        348        0.111629    2.11665e-06        0.00132      
+    58        354        0.111629    2.11665e-06        0.00125      
+    59        360        0.111629    2.11665e-06         0.0012      
+    60        366        0.111629    2.11665e-06        0.00113      
+    61        372        0.111629    2.11665e-06        0.00109      
+    62        378        0.111629    2.11665e-06        0.00103      
+    63        384        0.111629    2.11665e-06       0.000995      
+    64        390        0.111629    2.11665e-06       0.000935      
+    65        396        0.111629    2.11665e-06       0.000902      
+    66        402        0.111629    2.11665e-06       0.000842      
+    67        408        0.111629    2.11665e-06        0.00081      
+    68        414        0.111629    2.11665e-06       0.000755      
+    69        420        0.111629    2.11665e-06       0.000727      
+    70        426        0.111629    2.11665e-06       0.000676      
+    71        432        0.111629    2.11665e-06       0.000652      
+    72        438        0.111629    2.11665e-06       0.000603      
+    73        444        0.111629    2.11665e-06       0.000581      
+    74        450        0.111629    2.11665e-06       0.000535      
+    75        456        0.111629    2.11665e-06       0.000515      
+    76        462        0.111629    2.11665e-06       0.000471      
+    77        468        0.111629    2.11665e-06       0.000454      
+    78        474        0.111629    2.11665e-06       0.000408      
+    79        480        0.111629    2.11665e-06       0.000393      
+    80        486        0.111629    2.11665e-06       0.000343      
+    81        492        0.111629    2.11665e-06        0.00033      
+    82        498        0.111629    2.11665e-06       0.000267      
+    83        504        0.111629    2.11665e-06       0.000279      
+    84        510        0.111629    2.11665e-06       0.000224      
+    85        516        0.111629    5.29162e-07       0.000184      
+    86        522        0.111629    5.29162e-07       0.000184      
+    87        528        0.111629     1.3229e-07       0.000184      
+    88        534        0.111629    3.30726e-08       0.000184      
+    89        540        0.111629    8.26815e-09       7.23e-05      
+    90        546        0.111629    9.60642e-09       7.23e-05      
+    91        552        0.111629    2.06704e-09       4.44e-05      
+    92        558        0.111629    2.06704e-09       4.44e-05      
+    93        564        0.111629     5.1676e-10       4.44e-05      
+    94        570        0.111629     1.2919e-10       4.26e-05      
+    95        576        0.111629    3.22975e-11       4.22e-05      
+    96        582        0.111629    8.07437e-12       4.21e-05      
+    97        588        0.111629    2.01859e-12       4.21e-05      
+    98        594        0.111629    5.04648e-13       4.21e-05      
+    99        600        0.111629    1.26162e-13       4.21e-05      
+   100        606        0.111629    3.15405e-14       4.21e-05      
+   101        612        0.111629    7.88512e-15       4.21e-05      
+   102        618        0.111629    1.97128e-15       4.21e-05      
+
+Local minimum possible.
+
+lsqnonlin stopped because the final change in the sum of squares relative to 
+its initial value is less than the value of the function tolerance.
+
+
+kpar =
+
+    0.1154
+    0.0736
+   -0.0120
+    0.0033
+   -0.0162
+
+
+resnorm =
+
+    0.1116
+
+[Warning: Failure at t=3.020251e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (9.094947e-13)
+at time t.] 
+[> In ode15s (line 715)
+  In optimize_MP_Shajapur (line 89)] 
+
+kpar =
+
+    0.1154
+    0.0736
+   -0.0120
+    0.0033
+   -0.0162
+
+
+N =
+
+     1512353
+
+{Unrecognized function or variable 'err'.
+
+Error in optimize_MP_Shajapur (line 100)
+err
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Jamui'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6          350.42                      3.83e+05
+     1         12        0.323926       0.392862           8.74      
+     2         18        0.323926       0.375875           8.74      
+[Warning: Failure at t=1.751935e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (5.684342e-14)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_BR_Jamui>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_BR_Jamui (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_BR_Jamui>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_BR_Jamui (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Parbhani'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.420529                           352
+[Warning: Failure at t=1.013653e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MH_Parbhani>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MH_Parbhani (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MH_Parbhani>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MH_Parbhani (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Gurugram'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6        0.153024                            24
+[Warning: Failure at t=6.974386e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_HR_Gurugram>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_HR_Gurugram (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_HR_Gurugram>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_HR_Gurugram (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Cooch_Behar'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         2.65289                      2.31e+03
+     1         12       0.0269915       0.277393           9.61      
+[Warning: Failure at t=1.396660e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_WB_Cooch_Behar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_WB_Cooch_Behar (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_WB_Cooch_Behar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_WB_Cooch_Behar (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KA_Bengaluru_Rural'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         0.12094                          83.7
+[Warning: Failure at t=1.930749e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_KA_Bengaluru_Rural>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_KA_Bengaluru_Rural (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_KA_Bengaluru_Rural>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_KA_Bengaluru_Rural (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Evacuees'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_RJ_Evacuees (line 58)] 
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_RJ_Evacuees (line 59)] 
+{Error using snls (line 47)
+Objective function is returning undefined values at initial point. lsqnonlin
+cannot continue.
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_RJ_Evacuees (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Madhubani'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         60.8771                      3.84e+04
+     1         12         4.78594       0.286787       1.61e+04      
+[Warning: Failure at t=1.540028e+02.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (4.547474e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_BR_Madhubani>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 73)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_BR_Madhubani (line 73)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in
+optimize_BR_Madhubani>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_BR_Madhubani (line 73)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+slurmstepd: error: *** JOB 2292 ON n001 CANCELLED AT 2021-03-25T19:22:30 ***

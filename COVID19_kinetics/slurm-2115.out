@@ -1,0 +1,2522 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Moradabad'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_UP_Moradabad.dat'.
+No such file or directory.
+
+Error in fit_UP_Moradabad (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Tenkasi'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_TN_Tenkasi.dat'.
+No such file or directory.
+
+Error in fit_TN_Tenkasi (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Thane'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Thane.dat'.
+No such file or directory.
+
+Error in fit_MH_Thane (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Mahasamund'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_CT_Mahasamund.dat'.
+No such file or directory.
+
+Error in fit_CT_Mahasamund (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Malda'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_WB_Malda.dat'.
+No such file or directory.
+
+Error in fit_WB_Malda (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Patiala'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_PB_Patiala.dat'.
+No such file or directory.
+
+Error in fit_PB_Patiala (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Surat'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Surat.dat'.
+No such file or directory.
+
+Error in fit_GJ_Surat (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Hardoi'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_UP_Hardoi.dat'.
+No such file or directory.
+
+Error in fit_UP_Hardoi (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_West_Champaran'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_West_Champaran.dat'.
+No such file or directory.
+
+Error in fit_BR_West_Champaran (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Hisar'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_HR_Hisar.dat'.
+No such file or directory.
+
+Error in fit_HR_Hisar (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Pune'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Pune.dat'.
+No such file or directory.
+
+Error in fit_MH_Pune (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Kishanganj'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_Kishanganj.dat'.
+No such file or directory.
+
+Error in fit_BR_Kishanganj (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Sabarkantha'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Sabarkantha.dat'.
+No such file or directory.
+
+Error in fit_GJ_Sabarkantha (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Sangli'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Sangli.dat'.
+No such file or directory.
+
+Error in fit_MH_Sangli (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Chhindwara'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Chhindwara.dat'.
+No such file or directory.
+
+Error in fit_MP_Chhindwara (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Balod'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_CT_Balod.dat'.
+No such file or directory.
+
+Error in fit_CT_Balod (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Bikaner'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Bikaner.dat'.
+No such file or directory.
+
+Error in fit_RJ_Bikaner (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Surajpur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_CT_Surajpur.dat'.
+No such file or directory.
+
+Error in fit_CT_Surajpur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Dindori'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Dindori.dat'.
+No such file or directory.
+
+Error in fit_MP_Dindori (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Gir_Somnath'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Gir_Somnath.dat'.
+No such file or directory.
+
+Error in fit_GJ_Gir_Somnath (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KA_Shivamogga'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_KA_Shivamogga.dat'.
+No such file or directory.
+
+Error in fit_KA_Shivamogga (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Chhota_Udaipur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Chhota_Udaipur.dat'.
+No such file or directory.
+
+Error in fit_GJ_Chhota_Udaipur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GA_Unknown'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GA_Unknown.dat'.
+No such file or directory.
+
+Error in fit_GA_Unknown (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Neemuch'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Neemuch.dat'.
+No such file or directory.
+
+Error in fit_MP_Neemuch (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Tiruchirappalli'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_TN_Tiruchirappalli.dat'.
+No such file or directory.
+
+Error in fit_TN_Tiruchirappalli (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Shajapur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Shajapur.dat'.
+No such file or directory.
+
+Error in fit_MP_Shajapur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Jashpur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_CT_Jashpur.dat'.
+No such file or directory.
+
+Error in fit_CT_Jashpur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Churu'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Churu.dat'.
+No such file or directory.
+
+Error in fit_RJ_Churu (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JH_Koderma'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_JH_Koderma.dat'.
+No such file or directory.
+
+Error in fit_JH_Koderma (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Kollam'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_KL_Kollam.dat'.
+No such file or directory.
+
+Error in fit_KL_Kollam (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Mahisagar'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Mahisagar.dat'.
+No such file or directory.
+
+Error in fit_GJ_Mahisagar (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Panna'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Panna.dat'.
+No such file or directory.
+
+Error in fit_MP_Panna (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Ganganagar'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Ganganagar.dat'.
+No such file or directory.
+
+Error in fit_RJ_Ganganagar (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Jalore'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Jalore.dat'.
+No such file or directory.
+
+Error in fit_RJ_Jalore (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Thoothukkudi'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_TN_Thoothukkudi.dat'.
+No such file or directory.
+
+Error in fit_TN_Thoothukkudi (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Balrampur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_UP_Balrampur.dat'.
+No such file or directory.
+
+Error in fit_UP_Balrampur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Buxar'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_Buxar.dat'.
+No such file or directory.
+
+Error in fit_BR_Buxar (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Nanded'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Nanded.dat'.
+No such file or directory.
+
+Error in fit_MH_Nanded (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Sri_Muktsar_Sahib'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_PB_Sri_Muktsar_Sahib.dat'.
+No such file or directory.
+
+Error in fit_PB_Sri_Muktsar_Sahib (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Paschim_Bardhaman'
+
+
+path3 = 
+
+    "/ratio/"
+
+{The end operator must be used within an array index expression.
+
+Error in fit_WB_Paschim_Bardhaman (line 46)
+kpar(6) = data_p(end);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Tawang'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_AR_Tawang.dat'.
+No such file or directory.
+
+Error in fit_AR_Tawang (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Rajgarh'
+
+
+path3 = 
+
+    "/ratio/"
+
+{The end operator must be used within an array index expression.
+
+Error in fit_MP_Rajgarh (line 46)
+kpar(6) = data_p(end);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Pathanamthitta'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_KL_Pathanamthitta.dat'.
+No such file or directory.
+
+Error in fit_KL_Pathanamthitta (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Azamgarh'
+
+
+path3 = 
+
+    "/ratio/"
+
+{The end operator must be used within an array index expression.
+
+Error in fit_UP_Azamgarh (line 46)
+kpar(6) = data_p(end);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Darjeeling'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_WB_Darjeeling.dat'.
+No such file or directory.
+
+Error in fit_WB_Darjeeling (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Koriya'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_CT_Koriya.dat'.
+No such file or directory.
+
+Error in fit_CT_Koriya (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UT_Pithoragarh'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_UT_Pithoragarh.dat'.
+No such file or directory.
+
+Error in fit_UT_Pithoragarh (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Alwar'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Alwar.dat'.
+No such file or directory.
+
+Error in fit_RJ_Alwar (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Wayanad'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_KL_Wayanad.dat'.
+No such file or directory.
+
+Error in fit_KL_Wayanad (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Jhargram'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_WB_Jhargram.dat'.
+No such file or directory.
+
+Error in fit_WB_Jhargram (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Kozhikode'
+
+
+path3 = 
+
+    "/ratio/"
+
+{The end operator must be used within an array index expression.
+
+Error in fit_KL_Kozhikode (line 46)
+kpar(6) = data_p(end);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Jabalpur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Jabalpur.dat'.
+No such file or directory.
+
+Error in fit_MP_Jabalpur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Khandwa'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Khandwa.dat'.
+No such file or directory.
+
+Error in fit_MP_Khandwa (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Rajkot'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Rajkot.dat'.
+No such file or directory.
+
+Error in fit_GJ_Rajkot (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Evacuees'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Evacuees.dat'.
+No such file or directory.
+
+Error in fit_RJ_Evacuees (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Burhanpur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MP_Burhanpur.dat'.
+No such file or directory.
+
+Error in fit_MP_Burhanpur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Jamui'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_Jamui.dat'.
+No such file or directory.
+
+Error in fit_BR_Jamui (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Krishnagiri'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_TN_Krishnagiri.dat'.
+No such file or directory.
+
+Error in fit_TN_Krishnagiri (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Upper_Dibang_Valley'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_AR_Upper_Dibang_Valley.dat'.
+No such file or directory.
+
+Error in fit_AR_Upper_Dibang_Valley (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Gurugram'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_HR_Gurugram.dat'.
+No such file or directory.
+
+Error in fit_HR_Gurugram (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Lohit'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_AR_Lohit.dat'.
+No such file or directory.
+
+Error in fit_AR_Lohit (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'OR_Puri'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_OR_Puri.dat'.
+No such file or directory.
+
+Error in fit_OR_Puri (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Cooch_Behar'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_WB_Cooch_Behar.dat'.
+No such file or directory.
+
+Error in fit_WB_Cooch_Behar (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Barnala'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_PB_Barnala.dat'.
+No such file or directory.
+
+Error in fit_PB_Barnala (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Ernakulam'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_KL_Ernakulam.dat'.
+No such file or directory.
+
+Error in fit_KL_Ernakulam (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Amravati'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Amravati.dat'.
+No such file or directory.
+
+Error in fit_MH_Amravati (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Parbhani'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Parbhani.dat'.
+No such file or directory.
+
+Error in fit_MH_Parbhani (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PY_Yanam'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_PY_Yanam.dat'.
+No such file or directory.
+
+Error in fit_PY_Yanam (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'OR_Cuttack'
+
+
+path3 = 
+
+    "/ratio/"
+
+{The end operator must be used within an array index expression.
+
+Error in fit_OR_Cuttack (line 46)
+kpar(6) = data_p(end);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Kutch'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Kutch.dat'.
+No such file or directory.
+
+Error in fit_GJ_Kutch (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Bhagalpur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_Bhagalpur.dat'.
+No such file or directory.
+
+Error in fit_BR_Bhagalpur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KA_Bengaluru_Rural'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_KA_Bengaluru_Rural.dat'.
+No such file or directory.
+
+Error in fit_KA_Bengaluru_Rural (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TR_Unokoti'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_TR_Unokoti.dat'.
+No such file or directory.
+
+Error in fit_TR_Unokoti (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Amroha'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_UP_Amroha.dat'.
+No such file or directory.
+
+Error in fit_UP_Amroha (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HP_Bilaspur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_HP_Bilaspur.dat'.
+No such file or directory.
+
+Error in fit_HP_Bilaspur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JK_Samba'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_JK_Samba.dat'.
+No such file or directory.
+
+Error in fit_JK_Samba (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Bathinda'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_PB_Bathinda.dat'.
+No such file or directory.
+
+Error in fit_PB_Bathinda (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Nadia'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_WB_Nadia.dat'.
+No such file or directory.
+
+Error in fit_WB_Nadia (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Bhilwara'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Bhilwara.dat'.
+No such file or directory.
+
+Error in fit_RJ_Bhilwara (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Madhubani'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_Madhubani.dat'.
+No such file or directory.
+
+Error in fit_BR_Madhubani (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Latur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_MH_Latur.dat'.
+No such file or directory.
+
+Error in fit_MH_Latur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JH_Godda'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_JH_Godda.dat'.
+No such file or directory.
+
+Error in fit_JH_Godda (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Nuh'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_HR_Nuh.dat'.
+No such file or directory.
+
+Error in fit_HR_Nuh (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Mehsana'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_GJ_Mehsana.dat'.
+No such file or directory.
+
+Error in fit_GJ_Mehsana (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Auraiya'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_UP_Auraiya.dat'.
+No such file or directory.
+
+Error in fit_UP_Auraiya (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'ML_North_Garo_Hills'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_ML_North_Garo_Hills.dat'.
+No such file or directory.
+
+Error in fit_ML_North_Garo_Hills (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Banswara'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_RJ_Banswara.dat'.
+No such file or directory.
+
+Error in fit_RJ_Banswara (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Muzaffarpur'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_BR_Muzaffarpur.dat'.
+No such file or directory.
+
+Error in fit_BR_Muzaffarpur (line 8)
+kpar=load(filename);
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JK_Jammu'
+
+
+path3 = 
+
+    "/ratio/"
+
+{Error using load
+Unable to read file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/UGP-7thsem/temp_dist/my/kpar_JK_Jammu.dat'.
+No such file or directory.
+
+Error in fit_JK_Jammu (line 8)
+kpar=load(filename);
+} 
+slurmstepd: error: *** JOB 2115 ON n005 CANCELLED AT 2021-03-12T17:04:01 ***
+parallel: SIGTERM received. No new jobs will be started.
+parallel: Waiting for these 10 jobs to finish. Send SIGTERM again to stop now.
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_MP_Indore
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_AR_Anjaw
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_MP_Ujjain
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_CT_Raigarh
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_TN_Kanyakumari
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_TN_Cuddalore
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_OR_State_Pool
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_UP_Unnao
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_RJ_Ajmer
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_ML_Ribhoi

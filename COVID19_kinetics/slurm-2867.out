@@ -1,0 +1,259 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Moradabad'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_UP_Moradabad.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_UP_Moradabad (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Tenkasi'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_TN_Tenkasi.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_TN_Tenkasi (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Thane'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In fit_MH_Thane (line 55)] 
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_MH_Thane.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_MH_Thane (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Mahasamund'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_CT_Mahasamund.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_CT_Mahasamund (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Malda'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_WB_Malda.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_WB_Malda (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Patiala'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_PB_Patiala.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_PB_Patiala (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Surat'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_GJ_Surat.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_GJ_Surat (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Hardoi'
+
+shdadajd
+path4 = 
+
+    "/timeseries/"
+
+{Error using writematrix (line 156)
+Unable to open file
+'/home/rajat/COVID19_kinetics2/new2/COVID19_kinetics/result/result_UP_Hardoi.csv'
+for writing:
+
+No such file or directory
+
+Error in fit_UP_Hardoi (line 90)
+writematrix(xf,strcat(pwd,"/result/","result_",state,".csv"));
+} 
+slurmstepd: error: *** JOB 2867 ON n004 CANCELLED AT 2021-06-29T14:52:09 ***
+parallel: SIGTERM received. No new jobs will be started.
+parallel: Waiting for these 11 jobs to finish. Send SIGTERM again to stop now.
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_CT_Balod
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_MP_Dindori
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_GJ_Sabarkantha
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_MH_Pune
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_BR_West_Champaran
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_BR_Kishanganj
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_CT_Surajpur
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_HR_Hisar
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_MP_Chhindwara
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_MH_Sangli
+parallel: /software/Matlab/bin/matlab -nodisplay -r fit_RJ_Bikaner

@@ -1,0 +1,3710 @@
+100
+rm: cannot remove 'UGP-7thsem/temp_dist/my': Is a directory
+rm: cannot remove 'UGP-7thsem/temp_dist/plot': Is a directory
+   1.0738093e-01
+   1.3564674e-01
+   3.8757451e-01
+   1.7407959e-03
+   5.4494080e-04
+   2.5562440e+06
+   3.2068880e-05
+   4.2708108e-03
+   3.6809472e+01
+   4.0375989e-04
+   4.9019000e+04
+
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Thane'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Thane>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Thane (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Mahasamund'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_CT_Mahasamund>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_CT_Mahasamund (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Tenkasi'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_TN_Tenkasi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_TN_Tenkasi (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Moradabad'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_UP_Moradabad>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Moradabad (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Malda'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_WB_Malda>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_WB_Malda (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Patiala'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_PB_Patiala>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_PB_Patiala (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Surat'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_GJ_Surat>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Surat (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Hardoi'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_UP_Hardoi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Hardoi (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_West_Champaran'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_BR_West_Champaran>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_West_Champaran (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Kishanganj'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_BR_Kishanganj>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_Kishanganj (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Hisar'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_HR_Hisar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_HR_Hisar (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Pune'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Pune>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Pune (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Sabarkantha'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_GJ_Sabarkantha>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Sabarkantha (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Sangli'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Sangli>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Sangli (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Chhindwara'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_MP_Chhindwara>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Chhindwara (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Balod'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_CT_Balod>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_CT_Balod (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Surajpur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_CT_Surajpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_CT_Surajpur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Bikaner'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Bikaner>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Bikaner (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Gir_Somnath'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_GJ_Gir_Somnath>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Gir_Somnath (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Dindori'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MP_Dindori (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Dindori>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Dindori (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KA_Shivamogga'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_KA_Shivamogga>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KA_Shivamogga (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Chhota_Udaipur'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_GJ_Chhota_Udaipur (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_GJ_Chhota_Udaipur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Chhota_Udaipur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GA_Unknown'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_GA_Unknown>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GA_Unknown (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Shajapur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Shajapur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Shajapur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Jashpur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_CT_Jashpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_CT_Jashpur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Neemuch'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Neemuch>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Neemuch (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Churu'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Churu>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Churu (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Tiruchirappalli'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_TN_Tiruchirappalli>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_TN_Tiruchirappalli (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JH_Koderma'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_JH_Koderma>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_JH_Koderma (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Ganganagar'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_RJ_Ganganagar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Ganganagar (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Panna'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Panna>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Panna (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Kollam'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_KL_Kollam>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KL_Kollam (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Jalore'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Jalore>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Jalore (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Mahisagar'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_GJ_Mahisagar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Mahisagar (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Balrampur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_UP_Balrampur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Balrampur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Thoothukkudi'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_TN_Thoothukkudi>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_TN_Thoothukkudi (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Buxar'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_BR_Buxar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_Buxar (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Nanded'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Nanded>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Nanded (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Paschim_Bardhaman'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_WB_Paschim_Bardhaman>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_WB_Paschim_Bardhaman (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Tawang'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_AR_Tawang (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_AR_Tawang>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_AR_Tawang (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Sri_Muktsar_Sahib'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_PB_Sri_Muktsar_Sahib>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_PB_Sri_Muktsar_Sahib (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Rajgarh'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Rajgarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Rajgarh (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Pathanamthitta'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_KL_Pathanamthitta>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KL_Pathanamthitta (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Azamgarh'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_UP_Azamgarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Azamgarh (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Darjeeling'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_WB_Darjeeling>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_WB_Darjeeling (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Koriya'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_CT_Koriya>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_CT_Koriya (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Alwar'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Alwar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Alwar (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UT_Pithoragarh'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_UT_Pithoragarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UT_Pithoragarh (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Wayanad'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_KL_Wayanad>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KL_Wayanad (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Kozhikode'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_KL_Kozhikode>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KL_Kozhikode (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Jhargram'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_WB_Jhargram>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_WB_Jhargram (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Jabalpur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Jabalpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Jabalpur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Khandwa'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MP_Khandwa>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Khandwa (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Evacuees'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_RJ_Evacuees (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Evacuees>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Evacuees (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Burhanpur'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_MP_Burhanpur (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_MP_Burhanpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MP_Burhanpur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Jamui'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_BR_Jamui>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_Jamui (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Krishnagiri'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_TN_Krishnagiri>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_TN_Krishnagiri (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Rajkot'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_GJ_Rajkot>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Rajkot (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Gurugram'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_HR_Gurugram>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_HR_Gurugram (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Lohit'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_AR_Lohit (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_AR_Lohit>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_AR_Lohit (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'OR_Puri'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_OR_Puri>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_OR_Puri (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Upper_Dibang_Valley'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_AR_Upper_Dibang_Valley (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_AR_Upper_Dibang_Valley>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_AR_Upper_Dibang_Valley (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Cooch_Behar'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_WB_Cooch_Behar>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_WB_Cooch_Behar (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KL_Ernakulam'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_KL_Ernakulam>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KL_Ernakulam (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Amravati'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Amravati>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Amravati (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Barnala'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_PB_Barnala>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_PB_Barnala (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PY_Yanam'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_PY_Yanam>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_PY_Yanam (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Bhagalpur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_BR_Bhagalpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_Bhagalpur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'OR_Cuttack'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_OR_Cuttack>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_OR_Cuttack (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Kutch'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_GJ_Kutch>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Kutch (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'KA_Bengaluru_Rural'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_KA_Bengaluru_Rural>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_KA_Bengaluru_Rural (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Parbhani'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Parbhani>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Parbhani (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Amroha'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_UP_Amroha>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Amroha (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HP_Bilaspur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_HP_Bilaspur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_HP_Bilaspur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TR_Unokoti'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_TR_Unokoti>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_TR_Unokoti (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JK_Samba'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_JK_Samba>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_JK_Samba (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'PB_Bathinda'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_PB_Bathinda>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_PB_Bathinda (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'WB_Nadia'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_WB_Nadia>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_WB_Nadia (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Madhubani'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_BR_Madhubani>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_Madhubani (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Bhilwara'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Bhilwara>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Bhilwara (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MH_Latur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_MH_Latur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_MH_Latur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'HR_Nuh'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_HR_Nuh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_HR_Nuh (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'GJ_Mehsana'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_GJ_Mehsana>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_GJ_Mehsana (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JH_Godda'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_JH_Godda>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_JH_Godda (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Auraiya'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_UP_Auraiya>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Auraiya (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'BR_Muzaffarpur'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_BR_Muzaffarpur>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_BR_Muzaffarpur (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'ML_North_Garo_Hills'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_ML_North_Garo_Hills (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_ML_North_Garo_Hills>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_ML_North_Garo_Hills (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'JK_Jammu'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_JK_Jammu>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_JK_Jammu (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'AR_Anjaw'
+
+[Warning: Polynomial is badly conditioned. Add points with distinct X values,
+reduce the degree of the polynomial, or try centering and scaling as described
+in HELP POLYFIT.] 
+[> In polyfit (line 72)
+  In optimize_AR_Anjaw (line 60)] 
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_AR_Anjaw>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_AR_Anjaw (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Banswara'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Banswara>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Banswara (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'TN_Cuddalore'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in
+optimize_TN_Cuddalore>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line
+75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_TN_Cuddalore (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'MP_Indore'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6          1.8462                      5.44e+03
+     1         12          1.8462        1.16842       5.44e+03      
+     2         18       0.0535896       0.292105           58.3      
+[Warning: Failure at t=8.056382e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_MP_Indore>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 75)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_MP_Indore (line 75)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(5*kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_MP_Indore>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_MP_Indore (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'CT_Raigarh'
+
+
+                                         Norm of      First-order 
+ Iteration  Func-count     f(x)          step          optimality
+     0          6         1.10372                      3.99e+03
+     1         12        0.118861      0.0660698            586      
+[Warning: Failure at t=8.854171e+01.  Unable to meet integration tolerances
+without reducing the step size below the smallest value allowed (2.273737e-13)
+at time t.] 
+[> In ode45 (line 360)
+  In integrate (line 14)
+  In optimize_CT_Raigarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly) (line 75)
+  In snls (line 342)
+  In lsqncommon (line 164)
+  In lsqnonlin (line 262)
+  In optimize_CT_Raigarh (line 75)] 
+{Matrix dimensions must agree.
+
+Error in integrate (line 19)
+err = (ID-xknown(:,1)).^2/norm(xknown(:,1),2)^2 +
+(kpar(1)*ID-xknown(:,2)).^2/norm(xknown(:,2),2)^2 +
+(kpar(4)*ID-xknown(:,4)).^2/norm(xknown(:,4),2)^2 +
+(5*kpar(3)/100*IH-xknown(:,3)).^2/norm(xknown(:,3),2)^2;
+
+Error in optimize_CT_Raigarh>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in snls (line 342)
+            newfvec = feval(funfcn{3},xcurr,varargin{:});
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_CT_Raigarh (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+[Warning: Unable to load Toolbox Path Cache
+/home/rajat/.matlab/R2020a/toolbox_cache-9.8.0-2264267968-glnxa64.xml. The
+cache file is not in the correct format. It will be regenerated upon quitting
+MATLAB.] 
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'UP_Unnao'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_UP_Unnao>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_UP_Unnao (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'OR_State_Pool'
+
+{Error using snls (line 47)
+Objective function is returning undefined values at initial point. lsqnonlin
+cannot continue.
+
+Error in lsqncommon (line 164)
+            snls(funfcn,xC,lb,ub,flags.verbosity,options,defaultopt,initVals.F,initVals.J,caller,
+            ...
+
+Error in lsqnonlin (line 262)
+   lsqncommon(funfcn,xCurrent,lb,ub,options,defaultopt,optimgetFlag,caller,...
+
+Error in optimize_OR_State_Pool (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+} 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2020 The MathWorks, Inc.
+                  R2020a (9.8.0.1323502) 64-bit (glnxa64)
+                             February 25, 2020
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+state =
+
+    'RJ_Ajmer'
+
+{Unrecognized function or variable 'IH'.
+
+Error in integrate (line 4)
+S = N-R-IH-ID-D;
+
+Error in optimize_RJ_Ajmer>@(kpar)integrate(kpar,xknown,N,R,ID,IH0,D,k3poly)
+(line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Error in lsqnonlin (line 215)
+            initVals.F = feval(funfcn{3},xCurrent,varargin{:});
+
+Error in optimize_RJ_Ajmer (line 75)
+[kpar,resnorm]=lsqnonlin(@(kpar)
+integrate(kpar,xknown,N,R,ID,IH0,D,k3poly),kpar,[],[],options)
+
+Caused by:
+    Failure in initial objective function evaluation. LSQNONLIN cannot
+    continue.
+} 
+slurmstepd: error: *** JOB 1442 ON n002 CANCELLED AT 2021-02-06T11:51:54 ***
+parallel: SIGTERM received. No new jobs will be started.
+parallel: Waiting for these 19 jobs to finish. Send SIGTERM again to stop now.
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_OR_Jharsuguda
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_MZ_Champhai
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_MP_Ujjain
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_PB_Hoshiarpur
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_ML_Ribhoi
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_UP_Maharajganj
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_MH_Washim
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_UT_Bageshwar
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_UP_Deoria
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_OR_Sundargarh
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_UP_Sonbhadra
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_TN_Kanyakumari
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_JK_Kishtwar
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_JK_Kupwara
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_HR_Fatehabad
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_MP_Satna
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_OR_Nabarangapur
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_GJ_Aravalli
+parallel: /software/Matlab/bin/matlab -nodisplay -r optimize_PB_Fazilka
